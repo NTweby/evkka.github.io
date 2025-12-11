@@ -108,7 +108,7 @@
             margin: 0 auto;
         }
 
-        .feature-card {
+        .feature {
             text-align: center;
         }
 
@@ -117,19 +117,15 @@
             height: 300px;
             object-fit: cover;
             border-radius: 12px;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
+            background: #f0f0f0;
             box-shadow: 0 4px 12px rgba(0,0,0,0.1);
         }
 
-        .feature-card h3 {
-            font-size: 1.8rem;
-            margin-bottom: 15px;
-            color: #1E3A8A;
-        }
-
-        .feature-card p {
+        .feature p {
             color: #4B5563;
             font-size: 1.1rem;
+            margin-top: 10px;
         }
 
         /* Story Section */
@@ -219,10 +215,6 @@
                 height: 250px;
             }
 
-            .feature-card h3 {
-                font-size: 1.6rem;
-            }
-
             .story-image {
                 height: 300px;
             }
@@ -289,20 +281,20 @@
             <h2 class="section-title">Почему EVKKA?</h2>
             <div class="features-container">
                 <!-- Feature 1 -->
-                <div class="feature-card">
-                    <video class="feature-video" preload="none" muted loop playsinline>
+                <div class="feature">
+                    <video class="feature-video" preload="none" autoplay muted loop playsinline>
                         <source src="feature1.mp4.mp4" type="video/mp4">
+                        Ваш браузер не поддерживает видео.
                     </video>
-                    <h3>Не скользит</h3>
                     <p>Выдерживает нагрузку и влагу — не скользит даже при -30°C</p>
                 </div>
                 
                 <!-- Feature 2 -->
-                <div class="feature-card">
-                    <video class="feature-video" preload="none" muted loop playsinline>
+                <div class="feature">
+                    <video class="feature-video" preload="none" autoplay muted loop playsinline>
                         <source src="feature2.mp4.mp4" type="video/mp4">
+                        Ваш браузер не поддерживает видео.
                     </video>
-                    <h3>Не деформируется</h3>
                     <p>Материал ЭВА сохраняет форму годами — не провисает и не рвётся</p>
                 </div>
             </div>
