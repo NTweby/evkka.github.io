@@ -143,14 +143,11 @@
 
         .story-image {
             width: 100%;
-            height: 400px;
-            background-color: #E5E7EB; /* Placeholder color */
+            max-width: 800px;
+            height: auto;
             border-radius: 8px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #6B7280;
-            font-size: 0.9rem;
+            object-fit: cover;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
             margin: 0 auto;
         }
 
@@ -216,7 +213,7 @@
             }
 
             .story-image {
-                height: 300px;
+                height: auto;
             }
 
             .cta-buttons {
@@ -312,9 +309,7 @@
                     <p>Наш коврик выдерживает экстремальные температуры, не выцветает на солнце, не пахнет — просто работает каждый день.</p>
                 </div>
                 
-                <div class="story-image">
-                    Изображение производства
-                </div>
+                <img class="story-image" src="production.jpg.png" alt="Производство EVKKA">
             </div>
         </div>
     </section>
